@@ -8,9 +8,9 @@ import "./Homescreen.css";
 // Define a mapping of moods to request URLs
 const moods = {
   Happy: "fetchComedyMovies",
-  Sad: "fetchDramaMovies",
   Exciting: "fetchActionMovies",
   Romantic: "fetchRomanceMovies",
+  Drama: "fetchDramaMovies",
   Scary: "fetchHorrorMovies",
 };
 

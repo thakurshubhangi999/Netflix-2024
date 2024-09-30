@@ -37,9 +37,9 @@ function Navbar({ handleMoodChange, selectedMood }) {
             <select id="mood-select" value={selectedMood} onChange={handleMoodChange}>
               <option value="">All</option>
               <option value="Happy">Happy</option>
-              <option value="Sad">Sad</option>
               <option value="Exciting">Exciting</option>
               <option value="Romantic">Romantic</option>
+              <option value="Drama">Drama</option>
               <option value="Scary">Scary</option>
             </select>
           </div>
